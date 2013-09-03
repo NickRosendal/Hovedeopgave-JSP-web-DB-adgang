@@ -1,0 +1,236 @@
+@CHARSET "US-ASCII";
+
+body {
+	text-align: center;
+	background-color: rgb(90, 90, 90);
+}
+
+#container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+img.myimageclass {
+	width: 95%;
+	max-width: 800px;
+	margin: 2% auto;
+	border-radius: 15px;
+}
+
+form {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	-webkit-appearance: none;
+	appearance: none;
+	/* det her fjerne browsernes egen maade at vise lementer paa, fx har ios nogle dejlige submit typese til input*/
+	background-color: white;
+	text-align: center;
+	width: 95%;
+	height: 80%;
+	border-radius: 15px;
+	font-size: 16px;
+}
+
+.formInput {
+	/* This is ment for form text inputs */
+	box-shadow: rgb(11, 11, 11) 8px 8px 8px inset;
+	text-transform: uppercase;
+	/*
+		css3 transition, these tags are for the different browser types
+	*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#formSexButton {
+	width: 95%;
+	background-color: pink;
+	text-transform: uppercase;
+	box-shadow: rgb(11, 11, 11) 8px 8px 8px;
+	/*
+		css3 transition, these tags are for the different browser types
+	*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.dateForm {
+	width: 29.8%;
+	display: inline;
+	box-shadow: rgb(11, 11, 11) 8px 8px 8px inset;
+	background-color: white;
+	text-transform: uppercase;
+	/*
+		css3 transition, these tags are for the different browser types
+	*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#formSexButtonPushed {
+	width: 85%;
+	background-color: rgb(100, 149, 237);
+	box-shadow: rgb(11, 11, 11) 8px 8px 8px inset;
+	text-transform: uppercase;
+	/*
+		css3 transition, these tags are for the different browser types
+	*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#formSaveButton {
+	width: 95%;
+	background-color: #98fb98;
+	box-shadow: rgb(11, 11, 11) 8px 8px 8px;
+	text-transform: uppercase;
+	/*
+		css3 transition, these tags are for the different browser types
+	*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#formContainer {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	text-align: center;
+}
+
+#test {
+	margin: auto auto;
+	height: 28%;
+}
+
+#mainFormDiv {
+	height: 33%
+}
+
+#loginInForm {
+	height: 40%;
+}
+
+.bar {
+	margin-right: 5%;
+	-moz-box-flex: 1.0; /* Firefox */
+	-webkit-box-flex: 1.0; /* Safari and Chrome */
+	box-flex: 1.0;
+	/*
+		css3 transition, these tags are for the different browser types
+	*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+	box-shadow: rgb(11, 11, 11) 8px 8px 8px;
+	border-radius: 5px;
+}
+
+.bar_info {
+	background-color: orange;
+	height: 100%;
+	width: 20%;
+	margin-right: 5%;
+	-moz-box-flex: 1.0; /* Firefox */
+	-webkit-box-flex: 1.0; /* Safari and Chrome */
+	box-flex: 1.0;
+	/*
+		css3 transition, these tags are for the different browser types
+	*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+	box-shadow: rgb(11, 11, 11) 8px 8px 8px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.barInfoContainer {
+	margin-top: 15px;
+	width: 100%;
+	height: 20px;
+	display: -moz-box; /* Firefox */
+	display: -webkit-box; /* Safari and Chrome */
+	display: box;
+	-webkit-box-align: end;
+	/*
+		css3 transition, these tags are for the different browser types
+	*/
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+#barContainer {
+	width: 100%;
+	height: 150px;
+	display: -moz-box; /* Firefox */
+	display: -webkit-box; /* Safari and Chrome */
+	display: box;
+	-webkit-box-align: end;
+}
+
+p {
+	margin: 0px;
+}
+
+#barThursday {
+	/*
+	color width gradiant
+	*/
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F5F5DC),
+		to(#1a82f7));
+	background: -webkit-linear-gradient(top, #1a82f7, #F5F5DC);
+	background: -moz-linear-gradient(top, #1a82f7, #F5F5DC);
+	background: -ms-linear-gradient(top, #1a82f7, #F5F5DC);
+	background: -o-linear-gradient(top, #1a82f7, #F5F5DC);
+}
+
+#barFriday {
+	height: 100%;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F5F5DC),
+		to(#FF6103));
+	background: -webkit-linear-gradient(top, #FF6103, #F5F5DC);
+	background: -moz-linear-gradient(top, #FF6103, #F5F5DC);
+	background: -ms-linear-gradient(top, #FF6103, #F5F5DC);
+	background: -o-linear-gradient(top, #FF6103, #F5F5DC);
+}
+
+#barSaturday {
+	height: 100%;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F5F5DC),
+		to(#CECC15));
+	background: -webkit-linear-gradient(top, #CECC15, #F5F5DC);
+	background: -moz-linear-gradient(top, #CECC15, #F5F5DC);
+	background: -ms-linear-gradient(top, #CECC15, #F5F5DC);
+	background: -o-linear-gradient(top, #CECC15, #F5F5DC);
+}
+}
